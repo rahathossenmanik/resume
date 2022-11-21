@@ -6,12 +6,12 @@ const Testimonial = () => {
 			<h2 className='title pb-3 mb-5 text-start'>Testimonial</h2>
 			<div className='owl-carousel testimonial-carousel'>
 				<div className='text-start'>
-					<i className='fa fa-quote-left fa-3x text-primary mb-4'></i>
-					<p className='fs-4 mb-4 text-justify'>
+					<i className='fa fa-quote-left fa-3x text-primary'></i>
+					<span className='ms-3 fs-4 text-justify'>
 						I have builded an e-commerce website from Manik Hosen. I want to
 						refer him for building your wordpress site.
-					</p>
-					<div className='d-flex align-items-center'>
+					</span>
+					<div className='d-flex align-items-center mt-3'>
 						<img
 							className='img-fluid'
 							src={testimonial1}
@@ -24,14 +24,14 @@ const Testimonial = () => {
 						</div>
 					</div>
 				</div>
-				<div className='text-start'>
-					<i className='fa fa-quote-left fa-3x text-primary mb-4'></i>
-					<p className='fs-4 mb-4 text-justify'>
+				<div className='text-start mt-5'>
+					<i className='fa fa-quote-left fa-3x text-primary'></i>
+					<span className='ms-3 fs-4 text-justify'>
 						I had some serious SEO issue. My website won't show on google at
 						all. Then I have taken SEO service from Manik Hosen. Now my website
 						is at first page of google.
-					</p>
-					<div className='d-flex align-items-center'>
+					</span>
+					<div className='d-flex align-items-center mt-3'>
 						<img
 							className='img-fluid'
 							src={testimonial2}
@@ -44,14 +44,14 @@ const Testimonial = () => {
 						</div>
 					</div>
 				</div>
-				<div className='text-start'>
-					<i className='fa fa-quote-left fa-3x text-primary mb-4'></i>
-					<p className='fs-4 mb-4 text-justify'>
+				<div className='text-start mt-5'>
+					<i className='fa fa-quote-left fa-3x text-primary'></i>
+					<span className='ms-3 fs-4 text-justify'>
 						I have builded an EMS software from Manik Hosen to manage my school,
 						students and courses. Now I am happily managing everything in my
 						school. Highly recommended.
-					</p>
-					<div className='d-flex align-items-center'>
+					</span>
+					<div className='d-flex align-items-center mt-3'>
 						<img
 							className='img-fluid'
 							src={testimonial3}

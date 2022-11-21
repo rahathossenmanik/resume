@@ -1,4 +1,5 @@
 import { TypeAnimation } from 'react-type-animation';
+import { cv } from '../assets/file';
 import { profile } from '../assets/img';
 
 const Profile = () => {
@@ -47,7 +48,11 @@ const Profile = () => {
 				</a>
 			</div>
 			<div className='d-flex align-items-end justify-content-between border-top'>
-				<a href='/' className='btn w-50 border-end'>
+				<a
+					href={cv}
+					target='_blank'
+					rel='noreferrer'
+					className='btn w-50 border-end'>
 					Download CV
 				</a>
 				<a href='#contact' className='btn w-50 btn-scroll'>

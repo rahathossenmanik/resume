@@ -1,4 +1,5 @@
 import './App.css';
+import 'react-toastify/dist/ReactToastify.css';
 import Content from './pages/Content';
 
 function App() {

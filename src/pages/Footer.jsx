@@ -27,7 +27,7 @@ const Footer = () => {
 
 				<p className='m-0'>
 					&copy; All Rights Reserved. React Application By
-					<a href='https://rahathossenmanik.github.io'>Manik Hosen</a>
+					<a href='https://rahathossenmanik.github.io'> Manik Hosen</a>
 				</p>
 			</div>
 		</section>

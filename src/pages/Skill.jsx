@@ -25,7 +25,7 @@ const Skill = () => {
 							<p className='mb-2'>React</p>
 							<p className='mb-2'>90%</p>
 						</div>
-						<Progress color='primary' value={0} className='progress' />
+						<Progress color='primary' value={90} className='progress' />
 					</div>
 				</Col>
 				<Col sm='6'>
